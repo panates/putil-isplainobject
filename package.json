@@ -23,7 +23,7 @@
     "mocha": "^3.4.2"
   },
   "engines": {
-    "node": ">= 6.0"
+    "node": ">=4.0"
   },
   "directories": {
     "lib": "./lib"
