@@ -1,6 +1,6 @@
 /* eslint-disable */
-const assert = require('assert'),
-    isPlainObject = require('../');
+var assert = require('assert');
+var isPlainObject = require('../');
 
 function Test() {
 }
