@@ -12,13 +12,9 @@ sudo: false
 cache:
   directories:
     - node_modules
-services:
-  - postgresql
 before_install:
   - "test ! -d node_modules || npm prune"
   - "test ! -d node_modules || npm rebuild"
-before_script:
-  - psql -c 'create database travis_ci_test;' -U postgres
 script:
   - "npm run-script travis-cover"
 after_script:
